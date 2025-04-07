@@ -1,0 +1,74 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-07 03:54:42.344025",
+  "name": "Request More Docs/Info",
+  "style": "",
+  "workflow_state_name": "Request More Docs/Info"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-06 23:47:38.053258",
+  "name": "0 (Not yet created)",
+  "style": "",
+  "workflow_state_name": "0 (Not yet created)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2025-04-06 22:36:51.364634",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2025-04-06 22:36:51.362899",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-06 23:48:03.930079",
+  "name": "Raised",
+  "style": "",
+  "workflow_state_name": "Raised"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-06 23:54:27.440342",
+  "name": "Review 1",
+  "style": "",
+  "workflow_state_name": "Review 1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-06 23:55:24.965977",
+  "name": "Review 2",
+  "style": "",
+  "workflow_state_name": "Review 2"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2025-04-06 22:36:51.361073",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ }
+]

@@ -5,6 +5,18 @@ app_description = "This is my Approval app"
 app_email = "approval_app@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    "Custom Field",
+    "Property Setter",
+    "Workflow",
+    "Workflow State",
+    "Workflow Action",
+    "Role"
+]
+
+
+
+
 # Apps
 # ------------------
 
