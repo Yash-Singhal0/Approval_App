@@ -15,6 +15,12 @@ fixtures = [
 ]
 
 
+override_doctype_class = {
+    "Sales Order": "approval_app.overrides.sales_order.CustomSalesOrder"
+}
+
+
+
 
 
 # Apps

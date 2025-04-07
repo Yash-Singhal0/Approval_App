@@ -4,6 +4,360 @@
   "completed_by_role": "Normal User Role",
   "docstatus": 0,
   "doctype": "Workflow Action",
+  "modified": "2025-04-07 17:29:58.720976",
+  "name": "rjjffs9sis",
+  "permitted_roles": [
+   {
+    "parent": "rjjffs9sis",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "rjjffs9sis",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Normal User Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "rjhpmo66t6",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Raised"
+ },
+ {
+  "completed_by": "auditor@example.com",
+  "completed_by_role": "Auditor Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 17:42:42.023276",
+  "name": "324ir75vk2",
+  "permitted_roles": [
+   {
+    "parent": "324ir75vk2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Auditor Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "rjhpmo66t6",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Review 1"
+ },
+ {
+  "completed_by": "pm@example.com",
+  "completed_by_role": "Project Manager Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 17:43:43.261525",
+  "name": "3l816jh4tm",
+  "permitted_roles": [
+   {
+    "parent": "3l816jh4tm",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Project Manager Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "rjhpmo66t6",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Review 2"
+ },
+ {
+  "completed_by": "pm@example.com",
+  "completed_by_role": "Project Manager Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 17:44:25.646632",
+  "name": "42ggfvkgen",
+  "permitted_roles": [
+   {
+    "parent": "42ggfvkgen",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "42ggfvkgen",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Project Manager Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "rjhpmo66t6",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Pending"
+ },
+ {
+  "completed_by": "special@example.com",
+  "completed_by_role": "Special User Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 17:46:16.175753",
+  "name": "5511bn5vb0",
+  "permitted_roles": [
+   {
+    "parent": "5511bn5vb0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "5511bn5vb0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Normal User Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "551ll17v13",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Raised"
+ },
+ {
+  "completed_by": "pm@example.com",
+  "completed_by_role": "Project Manager Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 17:49:05.017878",
+  "name": "6pqejhjpje",
+  "permitted_roles": [
+   {
+    "parent": "6pqejhjpje",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "6pqejhjpje",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Project Manager Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "551ll17v13",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Pending"
+ },
+ {
+  "completed_by": "special@example.com",
+  "completed_by_role": "Special User Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 17:50:24.267702",
+  "name": "7ii4hms9d4",
+  "permitted_roles": [
+   {
+    "parent": "7ii4hms9d4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "7ii4hms9d4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Normal User Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "7iim6s386g",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Raised"
+ },
+ {
+  "completed_by": "pm@example.com",
+  "completed_by_role": "Project Manager Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 17:51:56.655565",
+  "name": "8fepq056ug",
+  "permitted_roles": [
+   {
+    "parent": "8fepq056ug",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "8fepq056ug",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Project Manager Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "7iim6s386g",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Pending"
+ },
+ {
+  "completed_by": "requester@example.com",
+  "completed_by_role": "Normal User Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 18:06:24.180753",
+  "name": "guiqs4nk77",
+  "permitted_roles": [
+   {
+    "parent": "guiqs4nk77",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "guiqs4nk77",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Normal User Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "gugvidor2p",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Raised"
+ },
+ {
+  "completed_by": "auditor@example.com",
+  "completed_by_role": "Auditor Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 18:06:32.876967",
+  "name": "h18r6fihqj",
+  "permitted_roles": [
+   {
+    "parent": "h18r6fihqj",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Auditor Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "gugvidor2p",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Review 1"
+ },
+ {
+  "completed_by": "pm@example.com",
+  "completed_by_role": "Project Manager Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 18:07:50.139028",
+  "name": "hpdaiptsi1",
+  "permitted_roles": [
+   {
+    "parent": "hpdaiptsi1",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Project Manager Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "gugvidor2p",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Review 2"
+ },
+ {
+  "completed_by": "pm@example.com",
+  "completed_by_role": "Project Manager Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 18:09:08.220498",
+  "name": "ihq2e6kpmb",
+  "permitted_roles": [
+   {
+    "parent": "ihq2e6kpmb",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "ihq2e6kpmb",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Project Manager Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "gugvidor2p",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Pending"
+ },
+ {
+  "completed_by": "special@example.com",
+  "completed_by_role": "Special User Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 18:11:07.457542",
+  "name": "jn21gkbhrd",
+  "permitted_roles": [
+   {
+    "parent": "jn21gkbhrd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "jn21gkbhrd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Normal User Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "jn12b8jnpl",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Raised"
+ },
+ {
+  "completed_by": "pm@example.com",
+  "completed_by_role": "Project Manager Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-04-07 18:12:12.018247",
+  "name": "kb86q1khdr",
+  "permitted_roles": [
+   {
+    "parent": "kb86q1khdr",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Special User Role"
+   },
+   {
+    "parent": "kb86q1khdr",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Project Manager Role"
+   }
+  ],
+  "reference_doctype": "Approval Request",
+  "reference_name": "jn12b8jnpl",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Pending"
+ },
+ {
+  "completed_by": "requester@example.com",
+  "completed_by_role": "Normal User Role",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
   "modified": "2025-04-07 00:47:07.470302",
   "name": "g027b2pl15",
   "permitted_roles": [

@@ -5,18 +5,51 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_gjyt"
+  "title",
+  "description",
+  "status",
+  "amended_from"
  ],
  "fields": [
   {
-   "fieldname": "section_break_gjyt",
-   "fieldtype": "Section Break"
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Raised",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Raised\nReview 1\nReview 2\nPending\nApproved\nRejected",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Approval Request",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2025-04-06 23:08:22.507983",
+ "modified": "2025-04-07 17:38:18.858208",
  "modified_by": "Administrator",
  "module": "Approval App",
  "name": "Approval Request",
@@ -38,5 +71,6 @@
  "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }
